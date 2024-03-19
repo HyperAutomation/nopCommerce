@@ -63,6 +63,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Payments.CyberSo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Misc.Zettle", "Plugins\Nop.Plugin.Misc.Zettle\Nop.Plugin.Misc.Zettle.csproj", "{80D363F0-C1C1-41CF-B7E0-11C6F6302D33}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gherkin", "Gherkin", "{EAEABC64-50D2-4957-955B-C6014FFD3BA7}"
+	ProjectSection(SolutionItems) = preProject
+		Gherkin\F01_Register.feature = Gherkin\F01_Register.feature
+		Gherkin\F02_Login.feature = Gherkin\F02_Login.feature
+		Gherkin\F03_Currencies.feature = Gherkin\F03_Currencies.feature
+		Gherkin\F04_Search.feature = Gherkin\F04_Search.feature
+		Gherkin\F05_HoverCategories.feature = Gherkin\F05_HoverCategories.feature
+		Gherkin\F06_HomeSliders.feature = Gherkin\F06_HomeSliders.feature
+		Gherkin\F07_FollowUs.feature = Gherkin\F07_FollowUs.feature
+		Gherkin\F08_Wishlist.feature = Gherkin\F08_Wishlist.feature
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
